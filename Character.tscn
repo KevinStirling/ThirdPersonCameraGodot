@@ -20,6 +20,9 @@ size = Vector3( 0.5, 0.5, 0.1 )
 transform = Transform( 0.999992, 0, -0.00396179, 0, 1, 0, 0.00396179, 0, 0.999992, 0, 1, 0 )
 collision_layer = 2
 script = ExtResource( 1 )
+mouse_sens = 0.015
+min_camera_angle = -50.0
+max_camera_angle = 89.0
 
 [node name="CameraOrbit" type="Spatial" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 1 )
